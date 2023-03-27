@@ -1,0 +1,40 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+.logo{
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+  position: fixed;
+  margin: 15px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+#header{
+  background-color: black;
+  height: 60px;
+}
+
+.navbar{
+    text-align: end;
+     justify-content: end;
+     display: flex;
+  
+}
+.navbar li{
+ list-style: none;
+ position: relative;
+ left: 90px;
+ padding: 1rem;
+  
+}
+.navbar li a{
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-size: auto;
+}
+.navbar li a:hover{
+  color: rgb(19, 223, 212);
+}

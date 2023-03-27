@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Caveat&family=Josefin+Slab:wght@300&family=Poppins:ital,wght@1,600&family=Raleway:ital,wght@1,100&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.navbar{
+    padding: 0rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-size: 30px;
+    color: white;
+    background-color: rgb(66, 69, 83);
+
+}
+
+.mnav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    padding: 0.6rem 0.4rem;
+    border-radius: 14px;
+   
+}
+
+.nav a:hover{
+    color: black;
+    background-color: white;
+
+}
+
+.mnav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    float: left;
+
+}
+
+.img img{
+    width: 70%;
+    min-width: 220px;
+    min-height: 220px;
+    max-height: 260px;
+    border-radius: 50%;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    padding: 20px;
+    width: 80%;
+
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px #dfdfdf;
+}
+.info{
+   
+   margin: 1.2rem ;
+ 
+
+
+}
+
+.info h1{
+    text-align: center;
+}
+
+
+
+
+.hrEncloser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width : 650px) {
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info p{
+        text-align: center;
+    }
+    
+}
+.box-1{
+    border: 2px solid black;
+    width: 200px;
+}
+
+
+.box-shadow{
+    box-shadow: 0px 0px 8px #dfdfdf;
+    border-radius: 20px;
+}
+
+
+.cardContainer{
+    width: 80%;
+
+    margin: 15px auto;
+}
